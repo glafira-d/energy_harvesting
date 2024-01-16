@@ -68,7 +68,7 @@ The inductance, L is negligible in low frequency scenarios. Re-writing using exp
 
 Current (i) term cancels out, and electrical force is then equal to: 
 
-<img height="50" src="img/Desktop/Screenshot 2024-01-16 at 20.53.28.png"/>
+<img height="50" src="img/Screenshot 2024-01-16 at 20.53.28.png"/>
 
 where alpha = dФ/dz. Therefore, substituting the resulting expression for Fe, electrical power can be found:
 
