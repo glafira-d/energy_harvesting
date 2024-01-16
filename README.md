@@ -4,7 +4,7 @@ The script in this project simulates the behavior of an electromagnetic energy h
 
 The power output and net mass displacement are calculated, which can be used in **_sizing and performance evaluation of a theoretical EH device._** 
 
-The script and commentary for this project are an adaptation of my MSc research thesis "Energy harvesting for aircraft fuel system level-sensing applications", in which I assessed the feasibility of an electromagnetic EH device as a power source for a typical fuel level sensor in aircraft fuel tanks. Please contact me if you have any questions or would like to cite in your work at glafira.d@gmail.com
+The script and commentary for this project are an adaptation of my MSc research thesis "Energy harvesting for aircraft fuel system level-sensing applications", in which I assessed the feasibility of an electromagnetic EH device as a power source for a typical fuel level sensor in aircraft fuel tanks. Please contact me if you have any questions at glafira.d@gmail.com
 
 ## Background
 ### Equation of motion
