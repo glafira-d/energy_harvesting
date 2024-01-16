@@ -62,8 +62,8 @@ class EnergyHarvester:
             k3, m3 = self.f1(z[i] + 0.5 * self.h * k2, ydot[i] + 0.5 * self.h * m2, t[i] + 0.5 * self.h,
                              F[i] + 0.5 * self.h), self.f2(z[i] + 0.5 * self.h * k2, ydot[i] + 0.5 * self.h * m2,
                                                            t[i] + 0.5 * self.h, F[i] + 0.5 * self.h)
-            k4, m4 = self.f1(z[i] + self.h * k3, ydot[i] + self.h * m3, t[i] + self.h, F[i] + self.h), \
-                     self.f2(z[i] + self.h * k3, ydot[i] + self.h * m3, t[i] + self.h, F[i] + self.h)
+            k4, m4 = (self.f1(z[i] + self.h * k3, ydot[i] + self.h * m3, t[i] + self.h, F[i] + self.h),
+                      self.f2(z[i] + self.h * k3, ydot[i] + self.h * m3, t[i] + self.h, F[i] + self.h))
 
             z[i + 1] = z[i] + ((self.h / 6) * (k1 + 2 * k2 + 2 * k3 + k4))
             ydot[i + 1] = ydot[i] + ((self.h / 6) * (m1 + 2 * m2 + 2 * m3 + m4))
